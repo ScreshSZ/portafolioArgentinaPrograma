@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(fondo-1.svg);
+    height: 100%;
+    color: #fff;
+}
+
+/*--------------NAV----------------*/
+
+nav{
+    height: 70px;
+}
+
+.logo{
+    height: 70px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.redes a:hover{
+    background: linear-gradient(147deg, #fe8a39, #fd3838);
+    border-radius: 20px;
+    box-shadow: 0 0;
+}
+
+
+
+
+/*-------------------------------------*/
+
+.carousel-inner img{
+    object-fit: cover;
+}
+
+/*------------------------------------------*/
+
+.contenedorPerfil{
+    text-align: center;
+}
+
+.imagen-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    object-fit: cover;
+}
+
+.contenedorDatos{
+    background-color: rgba(50, 50, 50, .2);
+    border-radius: 20px;
+}
+
+.nombrePerfil{
+    background: linear-gradient(147deg, #f86903, #fd3838);
+    font-size: 54px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 20px #ff6b01;
+}
+
+.miTrabajo{
+    background: linear-gradient(147deg, #ff6b01, #fd3838);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 20px #ff6b01;
+    font-size: 68px;
+}
+
+/*-------------------------------------------------*/
+
+.experiencia{
+    background-color: rgba(50, 50, 50, .2);
+    border-radius: 20px;
+}
+
+.experiencia .titulo{
+    text-align: center;
+    color: #ff6b01;
+    font-size: 50px;
+}
+
+.imagenLlano{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.descripcion-experiencia{
+    text-align: center;
+}
+
+.descripcion-experiencia{
+    font-size: 20px;
+}
+
+/*-----------------------------------------------------*/
+
+.tituloEducacion{
+    text-align: center;
+    color: #ff6b01;
+}
+
+.imagenesEducacion{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/*----------------------------------------*/
+
+.tituloHabilidades{
+    text-align: center;
+    color: #ff6b01;
+}
+
+.habilidades .barras{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    z-index: 2;
+}
+
+.habilidades .barras .valores1{
+   width: 80%;
+   height: 40px;
+   border-radius: 20px;
+   background-color: #1baa38;
+}
+
+.habilidades .barras .valores2{
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores3{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores4{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores5{
+    width: 65%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+ 
+ .habilidades .barras .valores6{
+    width: 55%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+ .habilidades .barras .valores7{
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores8{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores9{
+    width: 75%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores10{
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores11{
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores12{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ /*------------PROYECTOS---------*/
+
+ .proyectos{
+    text-align: center;
+ }
+
+ .contenedorProyectos{
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 30px 0;
+    border: 2px solid #1baa38;
+ }
+
+ .contenedorProyectos a{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(147deg, #ff6b01, #fd3838);
+    padding: 10px 16px ;
+    border-radius: 20px;
+    transition: .5;
+ }
+
+ .contenedorProyectos a:hover{
+   opacity: .9;
+ }
+
+ .imagenProyectos{
+   width: 90%;
+   margin: 40px auto;
+   height: 300px;
+   object-fit: cover;
+ }
