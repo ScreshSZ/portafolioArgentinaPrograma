@@ -209,6 +209,20 @@ nav{
     background-color: #1baa38;
  }
 
+ .habilidades .barras .valores13{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
+ .habilidades .barras .valores14{
+    width: 85%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1baa38;
+ }
+
  /*------------PROYECTOS---------*/
 
  .proyectos{
